@@ -1,12 +1,13 @@
 body{
-    background-color: black;
+    background-color:#601e51 ;
 }
 .h1{
     text-align: center;
     font-family: RaveKing;
     font-size: 200%;
-    color: white;
+    color: green;
 }
+
 @font-face {
     font-family:RaveKing;
     src: url(fonts/RaveKing-04Mz.ttf );
@@ -20,20 +21,18 @@ body{
     z-index: 1;
 }
 .bg{
-    width: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
     position: fixed;
-    left: 13%;
     top: 0%;
+    left: 2%;
     z-index: -1;
- 
 }
 .mousikh{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: 100%;
+
 }
 
